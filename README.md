@@ -10,4 +10,14 @@ $ pip install git+https://github.com/openai/CLIP.git
 ```
 Replace cudatoolkit=11.0 above with the appropriate CUDA version on your machine or cpuonly when installing on a machine without a GPU.
 
+## Run
+```bash
+python main.py
+```
 
+## Output
+```
+It is a mouse
+The probs of duck neck:  0.0012033392
+The probs of a mouse:  0.9987966
+```
